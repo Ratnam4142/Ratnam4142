@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Booking_Functional]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="basicTestNG.TC1">
+        <methods>
+          <include name="SetUp"/>
+          <include name="Shutdown"/>
+          <include name="VerifyOrangeHRM"/>
+        </methods>
+      </class> <!-- basicTestNG.TC1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Booking_Functional] -->
